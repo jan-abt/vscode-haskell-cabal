@@ -317,7 +317,7 @@ email='"someone@some-domain.com"'
 # Check if two arguments were provided
 if [ "$#" -ne 3 ]; then
     echo "project name, author name and email address are required"
-    echo "Usage: /vscode-make-workspace-cabal.sh $project $author $email"
+    echo "Usage: /vscode-haskell-cabal.sh $project $author $email"
     exit 1  # Exit with an error code
 fi
 
