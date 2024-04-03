@@ -1,10 +1,10 @@
 # vscode-haskell-cabal
-A simple `sh` script to build a basic vs-code workspace suitable for `Haskell` projects using the `cabal` build tool. <br>
-It contains a minimal sample app, a little bit of sample code and a few tests.
+A `sh` script to build a basic vs-code workspace suitable for `Haskell` projects using the `Cabal` build tool. <br>
+It contains a minimal sample app, with little bit of code and a few tests.
 
 # usage
 ```bash
-Usage: ./vscode-haskell-cabal.sh "my-project" "My Name" "me@some-domain.com"
+Usage: ./vscode-haskell-cabal.sh "your-project" "your name" "you@your-domain.com"
 ```
 
 ### Cabal File contents:
