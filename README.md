@@ -4,7 +4,10 @@ It contains a minimal sample app, with little bit of code and a few tests.
 
 # usage
 ```bash
-Usage: ./vscode-haskell-cabal.sh "your-project" "your name" "you@your-domain.com"
+chmod +x vscode-haskell-cabal.sh
+```
+```bash
+./vscode-haskell-cabal.sh "your-project" "your name" "you@your-domain.com"
 ```
 
 ### Cabal File contents:
