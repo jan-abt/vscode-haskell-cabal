@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # example:
-# ➜   ./vscode-haskell-cabal.sh "sample-project" "your name" "someone@somedomain.com"
+# ➜   ./vscode-haskell-cabal.sh "your-project" "your name" "you@your-domain.com"
 
 function main {
 
@@ -310,9 +310,9 @@ cabal run
 
 }
 
-project='"a title"' #$1
+project='"your project"' #$1
 author='"your name"'
-email='"someone@some-domain.com"'
+email='"you@your-domain.com"'
 
 # Check if two arguments were provided
 if [ "$#" -ne 3 ]; then
