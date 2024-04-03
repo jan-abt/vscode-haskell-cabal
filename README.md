@@ -4,12 +4,18 @@ It contains a minimal sample app, with little bit of code and a few tests.
 
 # usage
 ```bash
-chmod +x vscode-haskell-cabal.sh
-```
-```bash
 ./vscode-haskell-cabal.sh "your-project" "your name" "you@your-domain.com"
 ```
-
+if permission settings prevent you from executing the script, change them.
+```bash
+chmod +x vscode-haskell-cabal.sh
+```
+Once the project has been generated and built and you are finding that you have trouble adding or modifying files, <br>
+check your user-id, e.g. `id `, then group affiliations via `groups` <br>
+and finally use that info to change the ownership of all files and folders under the root dir over to you, recursively.
+```bash
+   sudo chown -R <user-name>:<group> .
+```
 ### Cabal File contents:
 ```cabal
 cabal-version:      3.0
