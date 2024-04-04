@@ -243,7 +243,7 @@ unitTests = hspec $ do
       getSum <$> n \`shouldBe\` Some (1::Int)
 
     it "(Some D \`mappend\` ((Some o) \`mappend\` (Some g))" $ do
-      let result = Some "D" \`mappend\` (Some "o \`mappend\` Some "g")
+      let result = Some "D" \`mappend\` (Some "o" \`mappend\` Some "g")
       result \`shouldBe\` Some "Dog"
 
 quickCheckTests :: IO () 
